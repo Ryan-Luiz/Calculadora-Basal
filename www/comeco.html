@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  
+  <script src="components/loader.js"></script>
+	<script src="components/jquery-3.3.1.min.js"></script>
+	<script src="components/acao.js"></script>
+
+	<link rel="stylesheet" href="components/loader.css">
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  
+
+</head>
+
+     <div class="container">
+
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Calculadora Basal</h1>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12">
+						<label>Selecione seu sexo:</label>
+						<select name="sexo" class="form-control" id="sexo">
+            <option value=""></option>
+            <option value="Feminino" id="sexo">Feminino</option>
+            <option value="Masculino" id="sexo">Masculino</option>
+           </select>
+					</div>
+				</div>	
+<br>
+				<div class="row">
+					<div class="col-xs-12">
+						<label>Digite o seu peso:</label>
+						<input type="number" name="" value="" id="peso" class="form-control" placeholder="Digite seu peso">
+					</div>
+				</div>
+<br>
+				<div class="row">
+					<div class="col-xs-12">
+						<label>Digite a sua altura:</label>
+						<input type="number" name="" value="" id="altura" class="form-control" placeholder="Digite sua altura">
+					</div>
+				</div>
+<br>
+				<div class="row">
+					<div class="col-xs-12">
+						<label>Digite a sua idade: </label>
+						<input type="number" name="" value="" id="idade" class="form-control" placeholder="Digite sua idade">
+					</div>
+				</div>
+<br>
+				<div class="row">
+					<div class="col-xs-12">
+						<label>SELECIONE SEU NIVEL DE ATIVIDADE:</label>
+						<select name="nivelAtividade" class="form-control" id="nivelAtividade">
+            <option value=""></option>
+            <option value="1.2">Sedentários</option>
+            <option value="1.375">Levemente ativo</option>
+            <option value="1.55">Moderadamente ativo</option>
+            <option value="1.725">Altamente ativo</option>
+            <option value="1.9">Extremamente ativo</option>
+           </select>
+					</div>
+				</div>
+<br>
+        <div class="row">
+					<div class="col-xs-12">
+						<label>Resultado:</label>
+						<input type="text" name="" value="" id="Resultado" class="form-control" readonly>
+					</div>
+				</div>
+<br>
+				<div class="row">
+					<div class="col-xs-6">
+						<button class="btn btn-block" id="calcular">Calcular</button>
+					</div>
+          
+					<div class="col-xs-6">
+						<button class="btn btn-danger btn-block" id="resertar">Limpar</button>
+					</div>
+        </div>
+			</div>
+
+</body>
+</html>
